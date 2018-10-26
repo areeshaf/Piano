@@ -19,29 +19,8 @@ public class MainActivity extends AppCompatActivity {
         Log.i("Button Pressed",buttonPressed.getTag().toString());
         String tappedTone=buttonPressed.getTag().toString();
 
-        if(tappedTone.equals('a')) {
-            mediaPlayer = MediaPlayer.create(this, R.raw.a);
-            mediaPlayer.start();
-        }else if(tappedTone.equals('b')){
-            mediaPlayer=MediaPlayer.create(this,R.raw.b);
-            mediaPlayer.start();
-        }else if(tappedTone.equals('c')){
-            mediaPlayer=MediaPlayer.create(this,R.raw.c);
-            mediaPlayer.start();
-        }
-        else if(tappedTone.equals('d')){
-            mediaPlayer=MediaPlayer.create(this,R.raw.d);
-            mediaPlayer.start();
-        }else if(tappedTone.equals('e')){
-            mediaPlayer=MediaPlayer.create(this,R.raw.e);
-            mediaPlayer.start();
-        }else if(tappedTone.equals('f')){
-            mediaPlayer=MediaPlayer.create(this,R.raw.f);
-            mediaPlayer.start();
-        }else if(tappedTone.equals('g')){
-            mediaPlayer=MediaPlayer.create(this,R.raw.g);
-            mediaPlayer.start();
-        }
+        mediaPlayer=MediaPlayer.create(this,getResources().getIdentifier(tappedTone,"raw",getPackageName()));
+        mediaPlayer.start();
     }
 //    public void playToneb(View view){
 //
