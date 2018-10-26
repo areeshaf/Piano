@@ -24,50 +24,57 @@
 
         <Button
             android:id="@+id/buttonA"
-            android:onClick="playTonea"
+            android:onClick="playTone"
             android:text="Buttona"
+            android:tag="a"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
             app:layout_rowWeight="1" />
         <Button
             android:id="@+id/buttonB"
             android:text="Buttonb"
-            android:onClick="playToneb"
+            android:tag="b"
+            android:onClick="playTone"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"/>
         <Button
             android:id="@+id/buttonC"
             android:text="Buttonc"
-            android:onClick="playTonec"
+            android:tag="c"
+            android:onClick="playTone"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"/>
         <Button
             android:id="@+id/buttonD"
             android:text="Buttond"
-            android:onClick="playToned"
+            android:tag="d"
+            android:onClick="playTone"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"/>
         <Button
             android:id="@+id/buttonE"
             android:text="Buttone"
-            android:onClick="playTonee"
+            android:tag="e"
+            android:onClick="playTone"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"/>
         <Button
             android:id="@+id/buttonF"
             android:text="Buttonf"
-            android:onClick="playTonef"
+            android:tag="f"
+            android:onClick="playTone"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"/>
         <Button
             android:id="@+id/buttonG"
             android:text="Buttong"
-            android:onClick="playToneg"
+            android:tag="g"
+            android:onClick="playTone"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"/>
