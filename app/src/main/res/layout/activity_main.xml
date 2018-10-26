@@ -24,59 +24,65 @@
 
         <Button
             android:id="@+id/buttonA"
+            android:background="@android:color/holo_red_light"
             android:onClick="playTone"
-            android:text="Buttona"
             android:tag="a"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
             app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/buttonB"
-            android:text="Buttonb"
-            android:tag="b"
+            android:background="@android:color/holo_orange_light"
             android:onClick="playTone"
+            android:tag="b"
+            app:layout_columnWeight="1"
             app:layout_gravity="fill"
-            app:layout_rowWeight="1"
-            app:layout_columnWeight="1"/>
+            app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/buttonC"
-            android:text="Buttonc"
-            android:tag="c"
+            android:background="@android:color/holo_green_light"
             android:onClick="playTone"
+            android:tag="c"
+            app:layout_columnWeight="1"
             app:layout_gravity="fill"
-            app:layout_rowWeight="1"
-            app:layout_columnWeight="1"/>
+            app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/buttonD"
-            android:text="Buttond"
-            android:tag="d"
+            android:background="@android:color/holo_purple"
             android:onClick="playTone"
+            android:tag="d"
+            app:layout_columnWeight="1"
             app:layout_gravity="fill"
-            app:layout_rowWeight="1"
-            app:layout_columnWeight="1"/>
+            app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/buttonE"
-            android:text="Buttone"
-            android:tag="e"
+            android:background="@android:color/darker_gray"
             android:onClick="playTone"
+            android:tag="e"
+            app:layout_columnWeight="1"
             app:layout_gravity="fill"
-            app:layout_rowWeight="1"
-            app:layout_columnWeight="1"/>
+            app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/buttonF"
-            android:text="Buttonf"
-            android:tag="f"
+            android:background="@android:color/holo_blue_bright"
             android:onClick="playTone"
+            android:tag="f"
+            app:layout_columnWeight="1"
             app:layout_gravity="fill"
-            app:layout_rowWeight="1"
-            app:layout_columnWeight="1"/>
+            app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/buttonG"
-            android:text="Buttong"
-            android:tag="g"
+            android:background="@color/colorAccent"
             android:onClick="playTone"
+            android:tag="g"
+            app:layout_columnWeight="1"
             app:layout_gravity="fill"
-            app:layout_rowWeight="1"
-            app:layout_columnWeight="1"/>
+            app:layout_rowWeight="1" />
     </android.support.v7.widget.GridLayout>
 </android.support.constraint.ConstraintLayout>
